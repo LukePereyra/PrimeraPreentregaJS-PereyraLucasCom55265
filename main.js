@@ -6,14 +6,14 @@ function bienvenida () {
 
 bienvenida ()
 
-let
+
 
 function elegir(){
     let Opciones = prompt("Que servicio desea contratar? masajes o uñas")
     
 
     
-    if(elegir = masajes){
+    if(Opciones === masajes){
         return prompt("Nos contactaremos para agendar un turno")    }
         else{
             prompt("Podes acercar al local para hacerte las uñas")
